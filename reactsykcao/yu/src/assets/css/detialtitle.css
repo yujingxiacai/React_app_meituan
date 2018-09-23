@@ -1,0 +1,42 @@
+.detial-container{
+    display: flex;
+    width: 100%;
+
+}
+.detial-container .imgs{
+    flex-grow: 1;
+    width: 0;
+
+    
+}
+.detial-container .imgs img{
+    width: 100%;
+}
+.detialtitle{
+flex-grow: 3;
+width: 0;
+}
+.detialtitle p{
+    margin:0.1rem 0.2rem;
+    text-align: left;
+}
+.detial h3{
+    text-align: left;
+    padding:0.2rem 0 0.2rem 0.1rem;
+    font-weight: 600;
+    border-top: 0.02rem solid #cccccc; 
+    border-bottom: 0.02rem solid #cccccc;
+}
+.detialtitle-bottom{
+    text-align: left;
+    margin:0 0.2rem;
+    position: relative;
+}
+.detialtitle-bottom span{
+    padding: 0 0.1rem;
+}
+.detialtitle-bottom .detialtitle-bottom-left{
+    position: absolute;
+    top:0;
+    right: 0.1rem;
+}
